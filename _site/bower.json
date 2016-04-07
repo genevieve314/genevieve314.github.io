@@ -1,0 +1,21 @@
+{
+  "name": "genevieve314.github.io",
+  "homepage": "https://github.com/genevieve314/genevieve314.github.io",
+  "authors": [
+    "Genevieve <gkolve@gmail.com>"
+  ],
+  "description": "genevieve's portfolio",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}

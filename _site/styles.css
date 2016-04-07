@@ -1,0 +1,31 @@
+.color-bar {
+	background-color: #4fc1e9;
+}
+
+.margin-top {
+	margin-top: 20px;
+}
+
+.margin-bottom {
+	margin-bottom: 20px;
+}
+
+.padding-top {
+	padding-top: 20px;
+}
+
+.padding-top-xl {
+	padding-top: 80px; 
+}
+
+.padding-bottom {
+	padding-bottom: 20px;
+}
+
+.padding-bottom-lg {
+	padding-bottom: 40px;
+}
+
+.padding-bottom-xl {
+	padding-bottom: 80px;
+}
