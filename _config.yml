@@ -20,4 +20,4 @@ github_username:  genevieve314
 # Build settings
 markdown: kramdown
 
-
+baseurl: 'genevieve314.github.io'
