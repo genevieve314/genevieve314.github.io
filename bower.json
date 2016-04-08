@@ -17,5 +17,6 @@
     "tests"
   ],
   "dependencies": {
+    "slick-carousel": "slick.js#^1.5.9"
   }
 }
