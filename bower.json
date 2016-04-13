@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "slick-carousel": "slick.js#^1.5.9"
+    "glidejs": "^2.0.7",
+    "jquery": "^2.2.3"
   }
 }

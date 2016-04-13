@@ -3,9 +3,11 @@
 <head>
 	<meta charset='UTF-8'>
 	<title>Genevieve Kolve</title>
-	<link rel='stylesheet' type='text/css' href='assets/styles.css'/>
 	<link rel='stylesheet' type='text/css' href='assets/semantic.min.css'/>
-	<link rel='stylesheet' type='text/css' href='bower_components/slick-carousel/slick/slick.css'/>
+	<link rel='stylesheet' type='text/css' href='bower_components/glidejs/dist/css/glide.core.min.css'/>
+	<link rel='stylesheet' type='text/css' href='bower_components/glidejs/dist/css/glide.theme.min.css'/>
+	<link rel='stylesheet' type='text/css' href='assets/styles.css'/>
+
 </head>
 <body>
 
@@ -31,14 +33,26 @@
 		<div class='ui medium header'>Applications</div>
 			<p>I like building full stack JavaScript applications</p>
 
-			<div class='single-item slider'>
-  			<div>your content</div>
- 				<div>your content</div>
-  			<div>your content</div>
-			</div>
+			<div class='ui medium header'>GameSwap</div>
+
+			<div id='Glide' class='glide'>
+				<div class="glide__arrows">
+  		    <button class="glide__arrow prev" data-glide-dir="<">prev</button>
+   	     	<button class="glide__arrow next" data-glide-dir=">">next</button>
+  	  	</div>
+
+				<div class='glide__wrapper'>
+      		<ul class='glide__track'>
+         		<li class='glide__slide slide-container'><img src="assets/images/gameswap_main.jpg" width='600px'/> </li>
+         		<li class='glide__slide slide-container'><img src="assets/images/gameswap_profile.jpg" width='600px'/></li>
+         		<li class='glide__slide slide-container'><img src="assets/images/gameswap_swaps.jpg" width='600px'/></li>
+        	</ul>
+      	</div>
+      	<div class="glide__bullets"></div>
+      </div>
+
 
 			<div class='ui medium header'>LivenUP</div>
-			<div class='ui medium header'>GameSwap</div>
 			<div class='ui medium header'>SnapPea</div>
 			<div class='ui medium header'>something else</div>
 
@@ -48,7 +62,7 @@
 	</div>
 
 	<script type='text/javascript' src='bower_components/jquery/dist/jquery.min.js'></script>
-	<script type='text/javascript' src='bower_components/slick-carousel/slick/slick.min.js'></script>
+	<script type='text/javascript' src='bower_components/glidejs/dist/glide.js'></script>
 	<script type='text/javascript' src='assets/semantic.min.js'></script>
 	<script type='text/javascript' src='app.js'></script>
 
