@@ -26,12 +26,20 @@
 	margin-bottom: 20%;
 }
 
+.padding-top-sm {
+	padding-top: 5%;
+}
+
 .padding-top {
 	padding-top: 10%;
 }
 
 .padding-top-xl {
 	padding-top: 20%; 
+}
+
+.padding-bottom-sm {
+	padding-bottom: 5%;
 }
 
 .padding-bottom {
@@ -78,6 +86,14 @@
 .black {
 	color: black;
 	/*top: -20px;*/
+}
+
+.fixed-height {
+	height: 375px;
+}
+
+.fixed-height-lg {
+	height: 500px;
 }
 
 
